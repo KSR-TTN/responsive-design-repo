@@ -1,363 +1,222 @@
-     @media screen and (max-width:768px) {
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 16px;
+}
 
-    body {
-        box-sizing: border-box;
-        display: flex;
-        justify-content: center; 
-        align-items: center;
-        min-height: 100vh; 
-        margin: 0;
-        font-size: 16px;
-      }
-    
-    
-      .wrapper_div {
-        width: 90vw;
-      }  
+.wrapper_div {
+  width: 90vw;
+}
 
-      .hero_section{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; 
-      }
-    
-      .hero_header{
-        text-align: center;
-       }
-     
-       .hero_para{
-         text-align: center;
-       }
-    
-       
-       .hero_search{
-        width: 40%;
-        text-align: center;
-        background: url('https://cdn-icons-png.flaticon.com/512/7079/7079548.png') ;
-        background-repeat: no-repeat;
-        background-position:  1em center;
-        background-size: 2em;
-        border-radius: 2em;
-        padding: 1em;
-       }
-    
-       .desktop_imp{
-        display: none;
-      }
-       .mid_section{
-        display: flex;
-        flex-direction: column;
-       }
-    
-       .section_card{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        border: 0.1em solid rgb(174, 146, 146);
-        border-radius: 1em;
-        margin: 1em 0;
-       }
-    
-       .section_card_image_container{
-          width: 50%;
-          margin: 0;
-          font-size: 0;
-       }
-    
-    
-       .section_card_info{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 1em;
-        width: 50%
-       }
-    
-       .section_card_image_container > img{
-           width: 100%;
-           display: block;
-           border: 4px solid rgb(28, 28, 26);
-           border-radius: 1rem;
-       }
-    
-    
-       .section_card_header{
-         display: flex;
-         justify-content: space-between;
-       }
-    
-       .section_card_details{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin: 0;
-       }
-    
-    
-       .section_card_details dd{
-        margin:  0;
-        margin-top: 0.5em;
-       }
-    
-    
-    
-  
-   }  
-
-    @media screen and (min-width:769px) and (max-width:1024px) {
-    body {
-        box-sizing: border-box;
-        display: flex;
-        justify-content: center; 
-        align-items: center;
-        min-height: 100vh; 
-        margin: 0;
-        font-size: 16px;
-      }
-    
-    
-      .wrapper_div {
-        width: 90vw;
-      }  
-      
-      .hero_section{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; 
-      }
-    
-      .hero_header{
-        text-align: center;
-       }
-     
-       .hero_para{
-         text-align: center;
-       }
-    
-       
-       .hero_search{
-        width: 40%;
-        text-align: center;
-        background: url('https://cdn-icons-png.flaticon.com/512/7079/7079548.png') ;
-        background-repeat: no-repeat;
-        background-position:  1em center;
-        background-size: 2em;
-        border-radius: 2em;
-        padding: 1em;
-       }
-       .desktop_imp{
-        display: none;
-      }
-    
-       .mid_section{
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-       }
-    
-       .section_card{
-        width: 30%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border: 0.1em solid rgb(174, 146, 146);
-        border-radius: 1em;
-       }
-    
-       .section_card_image_container{
-          width: 100%;
-          margin: 0;
-          font-size: 0;
-       }
-    
-    
-       .section_card_info{
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        margin-top: -3em;
-        padding: 1em;
-       }
-    
-       .section_card_image_container > img{
-           width: 100%;
-           display: block;
-
-           border-radius: 1rem;
-       }
-    
-    
-       .section_card_header{
-         display: flex;
-         justify-content: space-between;
-         flex-wrap: wrap;
-       }
-    .name{
-        display: none;
-    }
-       .section_card_details{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin: 0;
-       }
-    
-    
-       .section_card_details dd{
-        margin:  0;
-       }
-    
-    
-    
-
-   } 
-   @media screen and (min-width:1024px) {
-
-     body {
-       box-sizing: border-box;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       min-height: 100vh;
-       margin: 0;
-       font-size: 16px;
-     }
+.hero_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 
-     .wrapper_div {
-       width: 90vw;
-     }
-.wrapper_main{
+.hero_header {
+  text-align: center;
+}
+
+.hero_para {
+  text-align: center;
+}
+
+.hero_search {
+  width: 50%;
+  text-align: center;
+  background: url('https://cdn-icons-png.flaticon.com/512/7079/7079548.png');
+  background-repeat: no-repeat;
+  background-position: 1em center;
+  background-size: 2em;
+  border-radius: 2em;
+  padding: 1em;
+}
+
+.desktop_imp {
+  display: none;
+}
+
+.mid_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section_card {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  border: 0.1em solid rgb(174, 146, 146);
+  border-radius: 1em;
+  margin: 1em 0;
 }
-     .hero_section {
-       width: 100%;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       justify-content: center;
-     }
 
-     .hero_header {
-       text-align: center;
-     }
+.section_card_image_container {
+  width: 50%;
+  margin: 0;
+  font-size: 0;
+}
 
-     .hero_para {
-       text-align: center;
-     }
+.section_card_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  width: 50%
+}
 
+.section_card_image_container>img {
+  width: 100%;
+  display: block;
+  border: 4px solid rgb(28, 28, 26);
+  border-radius: 1rem;
+}
 
-     .hero_search {
-       width: 40%;
-       text-align: center;
-       background: url('https://cdn-icons-png.flaticon.com/512/7079/7079548.png');
-       background-repeat: no-repeat;
-       background-position: 1em center;
-       background-size: 2em;
-       border-radius: 2em;
-       padding: 1em;
-     }
+.section_card_header {
+  display: flex;
+  justify-content: space-between;
+}
 
+.section_card_details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+}
 
-     .mid_section {
-       display: flex;
-       flex-direction: column;
-       width: 50%;
-     }
-
-     .desktop_imp {
-      display: inline-block;
-       width: 48%;
-     }
-
-     .section_card2 {
-       width: 100%;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       border: 0.1em solid rgb(174, 146, 146);
-       border-radius: 1em;
-     }
-
-     .section_card_image_container2 {
-       width: 100%;
-       margin: 0;
-       font-size: 0;
-     }
+.section_card_details dd {
+  margin: 0;
+  margin-top: 0.5em;
+}
 
 
-     .section_card_info2 {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       width: 100%;
-     }
+/* For Tab devices  */
+@media screen and (min-width:769px) and (max-width:1024px) {
+  
+  .hero_search {
+    display: none;
+  }
 
-     .section_card_image_container2>img {
-       width: 100%;
-       display: block;
+  .mid_section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
 
-       border-radius: 1rem;
-     }
+  .section_card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1em solid rgb(174, 146, 146);
+    border-radius: 1em;
+  }
 
+  .section_card_image_container {
+    width: 100%;
+    margin: 0;
+    font-size: 0;
+  }
 
- 
+  .section_card_info {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: -3em;
+    padding: 1em;
+  }
 
-     .section_card {
-       width: 100%;
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-       border: 0.1em solid rgb(174, 146, 146);
-       border-radius: 1em;
-       margin: 1em 0;
-     }
-
-     .section_card_image_container {
-       width: 50%;
-       margin: 0;
-       font-size: 0;
-     }
-
-
-     .section_card_info {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       padding: 1em;
-       width: 50%;
-     }
-
-     .section_card_image_container>img {
-       width: 100%;
-       display: block;
-       border: 4px solid rgb(28, 28, 26);
-       border-radius: 1rem;
-     }
+}
 
 
-     .section_card_header {
-       display: flex;
-       justify-content: space-between;
-     }
+/* For Desktop devices  */
+@media screen and (min-width:1024px) {
 
-     .section_card_details {
-       display: flex;
-       flex-direction: column;
-       flex-wrap: wrap;
-       margin: 0;
-     }
+  .hero_search {
+    display: none;
+  }
 
+  .wrapper_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-     .section_card_details dd {
-       margin: 0;
-       margin-top: 0.5em;
-     }
+  .hero_search {
+    display: none;
+  }
 
-   }
+  .desktop_imp {
+    display: block;
+  }
+
+  .mid_section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .desktop_imp {
+    display: inline-block;
+    width: 48%;
+  }
+
+  .section_card2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1em solid rgb(174, 146, 146);
+    border-radius: 1em;
+  }
+
+  .section_card_image_container2 {
+    width: 100%;
+    margin: 0;
+    font-size: 0;
+  }
+
+  .section_card_info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section_card_image_container2>img {
+    width: 100%;
+    display: block;
+    border-radius: 1rem;
+  }
+
+  .section_card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0.1em solid rgb(174, 146, 146);
+    border-radius: 1em;
+    margin: 1em 0;
+  }
+
+  .section_card_image_container {
+    width: 50%;
+    margin: 0;
+    font-size: 0;
+  }
+
+  .section_card_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    width: 50%;
+  }
+}
