@@ -1,5 +1,5 @@
 body {
-  font-family: Arial ;
+  font-family: Arial;
   font-size: 14px;
   box-sizing: border-box;
   display: flex;
@@ -7,7 +7,6 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
- 
 }
 
 .wrapper_div {
@@ -35,22 +34,22 @@ body {
   height: 100%;
 }
 
-.section_card_header {
-  display: flex;
-  justify-content: space-between;
+.section_card_header{
+display: flex;
+justify-content: space-between;
 }
-
 hr {
   width: 100%;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-a >i{
+a > i {
   margin-left: 0.2em;
 }
+
 .section_card_details {
   display: flex;
   flex-direction: column;
@@ -65,9 +64,9 @@ a >i{
 
 .section_card {
   display: flex;
-  background-color: rgb(185, 187, 189);
   border-radius: 1em;
   margin: 1em 0;
+  background-color: rgb(185, 187, 189);
 }
 
 .section_card_image_container {
@@ -84,7 +83,7 @@ a >i{
 
 @media screen and (max-width:768px) {
   .hero_search {
-    width: 40%;
+    width: 80%;
     text-align: center;
     background: url('https://cdn-icons-png.flaticon.com/512/7079/7079548.png');
     background-repeat: no-repeat;
@@ -118,7 +117,6 @@ a >i{
 }
 
 @media screen and (min-width:769px) and (max-width:1024px) {
-
   .hero_search,
   .desktop_imp,
   .name {
@@ -174,17 +172,6 @@ a >i{
     align-items: center;
   }
 
-  .hero_search {
-    width: 40%;
-    text-align: center;
-    background: url('https://cdn-icons-png.flaticon.com/512/7079/7079548.png');
-    background-repeat: no-repeat;
-    background-position: 1em center;
-    background-size: 2em;
-    border-radius: 2em;
-    padding: 1em;
-  }
-
   .mid_section {
     display: flex;
     flex-direction: column;
@@ -200,9 +187,9 @@ a >i{
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: rgb(185, 187, 189);
     align-items: center;
     border-radius: 1em;
+    background-color: rgb(185, 187, 189);
   }
 
   .section_card_image_container2 {
@@ -219,15 +206,12 @@ a >i{
     border-top: 0.07em solid grey;
   }
 
-  .section_card_header2>span {
+  .section_card_header2 > span {
     margin-right: 1em;
   }
 
+  .section_card_header,
   hr {
-    display: none;
-  }
-
-  .section_card_header {
     display: none;
   }
 
@@ -248,14 +232,16 @@ a >i{
   .section_card_image_container {
     width: 50%;
   }
-  .section_card_image_container>img{
+
+  .section_card_image_container > img {
     border-radius: 1rem 0rem 0rem 1rem;
   }
-  .section_card_image_container2>img{
+
+  .section_card_image_container2 > img {
     border-radius: 1rem 1rem 0rem 0rem;
   }
+
   .section_card_info {
     width: 50%;
   }
-
 }
